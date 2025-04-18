@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 40px;
+  }
+  
+  #chart {
+    background: #f9f9f9;
+  }
+  
+  .dot {
+    stroke: black;
+    stroke-width: 1px;
+  }
+  
+  #tooltip {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  
+  #legend {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
